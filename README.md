@@ -8,6 +8,9 @@
     - Необходимо, чтобы верстка была адаптивной
     - При необходимости создавать отдельные компоненты только для мобильной версии
 2) Написать логику работы слайдера.
+    - Подключить и настроить JSON server
+    - Заполнить JSON server тестовыми данными
+    - Получить и отрисовать слайды с данных JSON server
 
 <h4>Можно использовать любые инструменты<h4>
 
@@ -18,7 +21,7 @@
 ***
 <h3>Необходимые материалы</h3>
 
-1) [Макет в фигме](https://www.figma.com/file/KS3E1LkarFwFQD90K1BUGN/%D0%A2%D0%B5%D1%81%D1%82%D0%BE%D0%B2%D0%BE%D0%B5-%D0%B7%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5-(Frontend)?type=design&node-id=4-229&mode=design&t=30jNLqdVcubjNOxp-0)
+1) [Макет в фигме](https://www.figma.com/file/DlYxIgslpL5Hb2B61O3BGU/%D0%9C%D0%BB%D0%B0%D0%B4%D1%88%D0%B8%D0%B9?type=design&node-id=1-244&mode=design&t=CQ6QV3EkriPaCsqB-0)
 <h3>Инструкция по установке проекта:</h3>
 
 1) Из папки ***frontend*** вызываем команды:
@@ -45,6 +48,7 @@ npm run build && npm run start
 [http://localhost:3000/](http://localhost:3000/)
 
 3) Верстка сделана согласно макету, так же сделан адаптив этой страницы
+4) Данные приходят с JSON server
 4) Слайдер работает
 
 ***
