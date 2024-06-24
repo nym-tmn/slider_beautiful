@@ -4,13 +4,14 @@ module.exports = {
     './pages/**/*.{js,ts,jsx,tsx,mdx}',
     './components/**/*.{js,ts,jsx,tsx,mdx}',
     './app/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
     extend: {
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
-                    'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
       flex: {
         'default-card': '1 1 5%',
@@ -95,15 +96,15 @@ module.exports = {
       xxs: ['0.8125rem', '18.2px'] /* fontSize:13px, lineHeight: 18.2px */,
       xs: ['0.875rem', '18.2px'] /* fontSize:14px, lineHeight: 18.2px */,
       sm: ['0.9375rem', '19.5px'] /* fontSize:14px, lineHeight: 19.5px */,
-      base: ['1.0625rem', '22.1px'] /* fontSize:17px, lineHeight: 22.1px */,
+      base: ['1rem', '1.5rem'] /* fontSize:16px, lineHeight: 24px */,
       md: ['1.125rem', '23.4px'] /* fontSize:18px, lineHeight: 23.4px */,
       lg: ['1.1875rem', '24.7px'] /* fontSize:19px, lineHeight: 24.7px */,
       xl: ['1.25rem', '26px'] /* fontSize:20px, lineHeight: 26px */,
-      '2xl': ['1.5625rem', '32.5px'] /* fontSize:25px, lineHeight: 32.5px */,
+      '2xl': ['1.5rem', '2rem'] /* fontSize:24px, lineHeight: 32px */,
       '3xl': ['1.875rem', '39px'] /* fontSize:30px, lineHeight: 39px */,
       '4xl': ['2.0625rem', '42.9px'] /* fontSize:33px, lineHeight: 42.9px */,
       '5xl': ['2.1875rem', '45.5px'] /* fontSize:35px, lineHeight: 45.5px */,
-      '6xl': ['2.5rem', '52px'] /* fontSize:40px, lineHeight: 52px */,
+      '6xl': ['2.5rem', '60px'] /* fontSize:40px, lineHeight: 60px */,
       '7xl': ['2.8125rem', '58.5px'] /* fontSize:45px, lineHeight: 58.5px */,
       '8xl': ['3.4375rem', '71.5px'] /* fontSize:55px, lineHeight: 71.5px  */,
       '9xl': ['3.75rem', '78px'] /* fontSize:60px, lineHeight: 78px  */,
