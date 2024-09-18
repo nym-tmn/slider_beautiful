@@ -9,38 +9,39 @@ const nextConfig = {
   env: {
     API_URL: process.env.API_URL
   },
-  images: {
+	images: {
+		unoptimized: true,
     formats: ['image/webp'],
     remotePatterns: [
       {
         protocol: 'https',
         hostname: 's3-alpha-sig.figma.com',
         port: '',
-        pathname: './**',
+        pathname: '/**',
       },
       {
         protocol: 'https',
         hostname: 'via.placeholder.com',
         port: '',
-        pathname: './**',
+        pathname: '/**',
       },
       {
         protocol: 'http',
         hostname: 'localhost',
         port: '8083',
-        pathname: './**',
+        pathname: '/**',
       },
       {
         protocol: 'https',
         hostname: 'backend.isb.aerokod.ru',
         port: '',
-        pathname: './**',
+        pathname: '/**',
       },
       {
         protocol: 'https',
         hostname: 'pb12955.profitbase.ru',
         port: '',
-        pathname: './**',
+        pathname: '/**',
       },
     ],
   }
