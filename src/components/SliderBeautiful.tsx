@@ -1,6 +1,6 @@
 import Slider from 'react-slick';
 import { useRef, useState } from 'react';
-// import Image from 'next/image';
+import Image from 'next/image';
 
 import { ImageData } from '../api/getPerformance';
 
@@ -79,11 +79,11 @@ const SliderBeautiful = ({ images }: Props) => {
                 return (
                   <div key={imageData.id} className={`rounded-[20px] m-0 lg:mx-[17.5px] lg:max-w-[600px] xl:max-w-[702px] min-[1150px]:max-w-[878px] opacity-0 lg:opacity-30 ${className} slide ${!isActive && 'h-[80vw] lg:h-[471px]'}`}>
                     <div className={`w-full h-[80vw] lg:h-[499px] ${className === 'left' && 'h-full mt-7 skew-y-[-1.5deg]'} ${className === 'right' && 'h-full mt-7 skew-y-[1.5deg]'}`}>
-                      <img
+                      <Image
                         className="object-cover h-full w-full rounded-[20px]"
                         width={878}
                         height={499}
-                        // priority
+                        priority
                         src={imageData.src}
                         alt={imageData.title}
                       />
